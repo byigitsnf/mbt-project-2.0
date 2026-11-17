@@ -3,6 +3,7 @@
   "country": "Italy",
   "countryCode": "IT",
   "order": 14,
+  "introduced": 1995,
   "summary": "The C1 Ariete (English: battering ram) is a 3rd generation main battle tank of the Italian Army.",
   "flag": "flags/italyround",
   "cardImage": "cards/ariete",

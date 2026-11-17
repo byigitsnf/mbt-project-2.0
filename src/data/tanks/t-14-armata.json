@@ -3,6 +3,7 @@
   "country": "Russia",
   "countryCode": "RU",
   "order": 17,
+  "introduced": 2015,
   "summary": "The T-14 Armata (Russian: Т-14 Армата) is a Russian MBT based on the Armata Universal Combat Platform.",
   "flag": "flags/russiaround1",
   "cardImage": "cards/armata",

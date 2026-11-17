@@ -3,6 +3,7 @@
   "country": "South Korea",
   "countryCode": "KR",
   "order": 10,
+  "introduced": 2014,
   "summary": "K2 Black Panther (Korean: K-2 흑표) is a South Korean main battle tank, designed by the Agency for Defense Development.",
   "flag": "flags/korearound",
   "cardImage": "cards/k2",

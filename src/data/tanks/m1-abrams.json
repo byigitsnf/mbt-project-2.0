@@ -3,6 +3,7 @@
   "country": "USA",
   "countryCode": "US",
   "order": 1,
+  "introduced": 1980,
   "summary": "M1 Abrams is a third generation American main battle tank designed by Chrysler Defence.",
   "flag": "flags/usaround",
   "cardImage": "cards/abrams",

@@ -3,6 +3,7 @@
   "country": "France",
   "countryCode": "FR",
   "order": 7,
+  "introduced": 1992,
   "summary": "The Leclerc is a third-generation French main battle tank developed and manufactured by Nexter Systems.",
   "flag": "flags/franceround",
   "cardImage": "cards/leclerc",

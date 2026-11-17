@@ -3,6 +3,7 @@
   "country": "Germany",
   "countryCode": "DE",
   "order": 3,
+  "introduced": 1979,
   "summary": "The Leopard 2 is a third generation German main battle tank developed by Krauss-Maffei in the 1970s.",
   "flag": "flags/germanyround",
   "cardImage": "cards/leopard",

@@ -3,6 +3,7 @@
   "country": "Japan",
   "countryCode": "JP",
   "order": 13,
+  "introduced": 2012,
   "summary": "The Type 10 (10式戦車, Hitomaru-shiki sensha) is a fourth generation main battle tank of JSDF.",
   "flag": "flags/japanround",
   "cardImage": "cards/type10",

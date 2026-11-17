@@ -15,7 +15,20 @@ export const hasProfile = (tank) => Boolean(tank.blocks?.length);
 
 export const profiles = tanks.filter(hasProfile);
 
-export const countries = [...new Set(tanks.map((t) => t.country))].sort();
+/**
+ * Periods the home page groups the tanks into, by the year each tank was introduced
+ * (the `introduced` field). Tanks introduced before 1991 are Cold War designs still in
+ * service, so they count as "Remnants of the Cold War" too.
+ */
+export const periods = [
+  { id: 'cold-war-remnants', title: 'Remnants of the Cold War', years: '1991–2000', until: 2000 },
+  { id: 'new-millennium', title: 'A New Millennium', years: '2000–2010', until: 2010 },
+  { id: 'modern', title: 'Modern Era', years: '2010–today', until: Infinity },
+];
+
+export const periodOf = (tank) => periods.find((p) => tank.introduced <= p.until);
+
+export const countries =[...new Set(tanks.map((t) => t.country))].sort();
 
 export const getTank = (id) => profiles.find((t) => t.id === id);
 

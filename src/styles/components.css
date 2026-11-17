@@ -33,6 +33,11 @@
   font-weight: 600;
   font-size: 0.85rem;
 }
+.origin__year {
+  margin-left: auto;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
 .flag {
   width: 22px;
   height: 22px;

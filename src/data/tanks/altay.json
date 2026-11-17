@@ -3,6 +3,7 @@
   "country": "Turkey",
   "countryCode": "TR",
   "order": 16,
+  "introduced": 2025,
   "summary": "Altay is a Turkish fourth generation MBT designed by Otokar based on Korean K2 to be produced by BMC.",
   "flag": "flags/turkeyround",
   "cardImage": "cards/altay",

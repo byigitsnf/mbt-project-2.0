@@ -43,7 +43,10 @@ src/
 1. Fotoğrafları `source-images/<tank-adı>/` klasörüne koyun.
 2. `src/data/tanks/<tank-adı>.json` dosyasını mevcut bir tanktan kopyalayıp düzenleyin.
    Görselleri uzantısız yazın, örneğin `"heroImage": "altay/altay"`.
-3. `blocks` alanı boşsa tank yalnızca kart olarak görünür ("Full profile coming soon").
+3. `introduced` alanına tankın hizmete girdiği yılı yazın. Ana sayfa tankları bu yıla göre gruplar:
+   2000 ve öncesi "Remnants of the Cold War", 2001–2010 "A New Millennium", 2011 ve sonrası "Modern Era".
+   Gruplar `src/lib/content.js` içindeki `periods` listesinde tanımlı.
+4. `blocks` alanı boşsa tank yalnızca kart olarak görünür ("Full profile coming soon").
 
 ## Yayınlama
 

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import Img from '../components/Img.jsx';
 import TankCard from '../components/TankCard.jsx';
-import { countries, profiles, tanks } from '../lib/content.js';
+import { countries, periodOf, periods, profiles, tanks } from '../lib/content.js';
 import { usePage } from '../lib/usePage.js';
 
 export default function Home() {
@@ -27,6 +27,18 @@ export default function Home() {
     const term = q.trim().toLowerCase();
     return tanks.filter((t) => (!term || t.name.toLowerCase().includes(term)) && (!country || t.country === country));
   }, [q, country]);
+
+  // Split the visible tanks into periods, oldest first, each sorted by year; empty periods are hidden.
+  const groups = useMemo(
+    () =>
+      periods
+        .map((period) => ({
+          period,
+          items: visible.filter((t) => periodOf(t) === period).sort((a, b) => a.introduced - b.introduced || a.order - b.order),
+        }))
+        .filter((g) => g.items.length > 0),
+    [visible],
+  );
 
   // Announce the result count politely, after typing pauses.
   const [status, setStatus] = useState('');
@@ -112,13 +124,26 @@ export default function Home() {
         </p>
 
         {visible.length > 0 ? (
-          <ul className="grid" role="list">
-            {visible.map((tank) => (
-              <li key={tank.id}>
-                <TankCard tank={tank} />
-              </li>
-            ))}
-          </ul>
+          groups.map(({ period, items }) => (
+            <section key={period.id} className="period" aria-labelledby={`period-${period.id}`}>
+              <header className="period__head">
+                <h3 id={`period-${period.id}`} className="period__title">
+                  {period.title}
+                </h3>
+                <p className="period__years">{period.years}</p>
+                <p className="period__count">
+                  {items.length} {items.length === 1 ? 'tank' : 'tanks'}
+                </p>
+              </header>
+              <ul className="grid" role="list">
+                {items.map((tank) => (
+                  <li key={tank.id}>
+                    <TankCard tank={tank} />
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))
         ) : (
           <div className="empty">
             <p>No tanks match your search.</p>

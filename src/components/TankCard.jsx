@@ -7,7 +7,7 @@ const motionOK = () =>
   window.matchMedia('(prefers-reduced-motion: no-preference)').matches && navigator.connection?.saveData !== true;
 
 export default function TankCard({ tank }) {
-  const { id, name, country, summary, cardImage, flag, preview } = tank;
+  const { id, name, country, summary, cardImage, flag, preview, introduced } = tank;
   const linked = hasProfile(tank);
   // The animated preview is only downloaded once the card is hovered or focused.
   const [loaded, setLoaded] = useState(false);
@@ -30,8 +30,10 @@ export default function TankCard({ tank }) {
         <p className="origin">
           <Img src={flag} alt="" sizes="22px" className="flag" />
           <span>{country}</span>
+          {introduced && <span className="origin__year">Introduced {introduced}</span>}
         </p>
-        <h3 className="card__title">{linked ? <Link to={`/tanks/${id}/`}>{name}</Link> : name}</h3>
+        {/* h4: the cards sit under the period headings (h3) on the home page. */}
+        <h4 className="card__title">{linked ? <Link to={`/tanks/${id}/`}>{name}</Link> : name}</h4>
         <p className="card__summary">{summary}</p>
         {linked ? (
           <span className="card__more" aria-hidden="true">

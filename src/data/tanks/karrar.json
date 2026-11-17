@@ -3,6 +3,7 @@
   "country": "Iran",
   "countryCode": "IR",
   "order": 15,
+  "introduced": 2017,
   "summary": "The Karrar (Persian كرار Striker or \"Attacker\") is an Iranian MBT that was announced in 2016.",
   "flag": "flags/iranround",
   "cardImage": "cards/karrar",

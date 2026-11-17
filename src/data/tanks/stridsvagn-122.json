@@ -3,6 +3,7 @@
   "country": "Sweden",
   "countryCode": "SE",
   "order": 18,
+  "introduced": 1997,
   "summary": "Stridsvagn 122 is a Swedish MBT that like the German Leopard 2A5, is based on the German Leopard 2.",
   "flag": "flags/swedenround",
   "cardImage": "cards/strv122",

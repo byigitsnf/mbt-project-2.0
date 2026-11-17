@@ -3,6 +3,7 @@
   "country": "Israel",
   "countryCode": "IL",
   "order": 12,
+  "introduced": 1979,
   "summary": "The Merkava (Hebrew: מרכבה) is a main battle tanks used by the Israel Defense Forces.",
   "flag": "flags/israelround",
   "cardImage": "cards/merkava",

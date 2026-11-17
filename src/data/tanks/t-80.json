@@ -3,6 +3,7 @@
   "country": "Russia",
   "countryCode": "RU",
   "order": 4,
+  "introduced": 1976,
   "summary": "The T-80 is a main battle tank that was designed and manufactured in the Soviet Union.",
   "flag": "flags/russiaround1",
   "cardImage": "cards/t-80bvm",

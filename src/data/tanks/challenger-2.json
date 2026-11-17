@@ -3,6 +3,7 @@
   "country": "United Kingdom",
   "countryCode": "GB",
   "order": 5,
+  "introduced": 1998,
   "summary": "The FV4034 Challenger 2 (MoD designation \"CR2\") is a third generation British main battle tank.",
   "flag": "flags/ukround2",
   "cardImage": "cards/challenger2",

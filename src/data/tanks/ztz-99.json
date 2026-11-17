@@ -3,6 +3,7 @@
   "country": "China",
   "countryCode": "CN",
   "order": 8,
+  "introduced": 2001,
   "summary": "The Type 99 (Chinese: Jiǔjiǔshì Zhǔzhàn Tǎnkè) or ZTZ-99 is a Chinese third generation main battle tank.",
   "flag": "flags/chinaround",
   "cardImage": "cards/ztz99",

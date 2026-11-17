@@ -134,6 +134,44 @@
   list-style: none;
   padding: 0;
 }
+/* Tank groups on the home page: big period title, years in small type below it. */
+.period + .period {
+  margin-top: clamp(56px, 8vw, 96px);
+}
+.period__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  column-gap: 16px;
+  margin-bottom: 28px;
+  padding: 0 0 18px 20px;
+  border-bottom: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+}
+.period__title {
+  grid-column: 1;
+  font-size: clamp(1.9rem, 3vw + 1rem, 3rem);
+  font-weight: 700;
+  line-height: 1.05;
+}
+.period__years {
+  grid-column: 1;
+  margin-top: 8px;
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.period__count {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: end;
+  color: var(--muted);
+  font-size: 0.92rem;
+  white-space: nowrap;
+}
 .empty {
   display: grid;
   justify-items: center;
