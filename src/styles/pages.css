@@ -301,3 +301,81 @@
 .not-found > * + * {
   margin-top: 16px;
 }
+
+/* ------------------------------------------------------------ era (work in progress) */
+.era-hero {
+  padding-block: clamp(56px, 9vw, 112px);
+  background:
+    repeating-linear-gradient(-45deg, transparent 0 22px, color-mix(in srgb, var(--accent) 7%, transparent) 22px 44px),
+    var(--accent-soft);
+  border-bottom: 1px solid var(--border);
+}
+.era-hero .eyebrow {
+  color: var(--accent-strong);
+}
+.era-hero h1 {
+  margin-block: 8px 16px;
+}
+.era-hero .lead {
+  margin-top: 20px;
+  color: var(--text);
+}
+.wip-badge--large {
+  padding: 4px 14px;
+  font-size: 0.9rem;
+  color: var(--accent-strong);
+  border-width: 2px;
+}
+.era-body {
+  display: grid;
+  gap: 40px;
+  align-items: start;
+}
+@media (min-width: 900px) {
+  .era-body {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    gap: 64px;
+  }
+}
+.era-body__note {
+  margin-top: 8px;
+  color: var(--muted);
+}
+.era-planned {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+  padding: 0;
+  list-style: none;
+}
+.era-planned li {
+  display: grid;
+  gap: 2px;
+  padding: 16px 18px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.era-planned__name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 650;
+}
+.era-planned__country {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.era-callout {
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.era-callout h2 {
+  font-size: 1.4rem;
+}
+.era-callout > * + * {
+  margin-top: 12px;
+}

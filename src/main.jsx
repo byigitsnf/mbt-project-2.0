@@ -8,6 +8,7 @@ import ArticlePage from './pages/ArticlePage.jsx';
 import Fundamentals from './pages/Fundamentals.jsx';
 import About from './pages/About.jsx';
 import NotFound from './pages/NotFound.jsx';
+import EraPage from './pages/EraPage.jsx';
 import './styles/global.css';
 import './styles/layout.css';
 import './styles/components.css';
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         { path: '/history/nato', element: <ArticlePage id="nato" key="nato" /> },
         { path: '/fundamentals', element: <Fundamentals /> },
         { path: '/about', element: <About /> },
+        { path: '/eras/:eraId', element: <EraPage /> },
         { path: '*', element: <NotFound /> },
       ],
     },

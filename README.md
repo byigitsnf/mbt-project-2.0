@@ -30,6 +30,7 @@ src/
   main.jsx                 # Rotalar (react-router)
   data/tanks/*.json        # Her tank: ad, ülke, özet, özellikler, içerik blokları
   data/articles/*.json     # Tarih makaleleri
+  data/eras.js             # Dönem seçicideki dönemler (Modern dışındakiler "work in progress")
   lib/content.js           # Verileri yükler; içindekiler ve okuma süresi hesaplar
   lib/usePage.js           # Sayfa başlığı ve sayfa değişiminde odak yönetimi
   components/              # Layout, TankCard, Img, Blocks, Toc, Breadcrumbs…

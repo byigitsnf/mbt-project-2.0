@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
+import EraBar from './EraBar.jsx';
+import { eraFromPath } from '../data/eras.js';
 
 const NAV = [
   { to: '/', label: 'Tanks', match: (p) => p === '/' || p.startsWith('/tanks/') },
@@ -57,6 +59,13 @@ export default function Layout() {
 
   // Close the mobile menu after navigating.
   useEffect(() => setMenuOpen(false), [pathname]);
+
+  // Each era tints the whole site with its own accent colour (see the era tokens in global.css).
+  const era = eraFromPath(pathname).id;
+  useEffect(() => {
+    if (era === 'modern') delete document.documentElement.dataset.era;
+    else document.documentElement.dataset.era = era;
+  }, [era]);
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -126,6 +135,7 @@ export default function Layout() {
           </button>
         </div>
       </header>
+      <EraBar />
 
       <main id="main" tabIndex={-1}>
         <Outlet />
