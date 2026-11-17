@@ -1,0 +1,10 @@
+{
+  "name": "T-80",
+  "country": "Russia",
+  "countryCode": "RU",
+  "order": 4,
+  "summary": "The T-80 is a main battle tank that was designed and manufactured in the Soviet Union.",
+  "flag": "flags/russiaround1",
+  "cardImage": "cards/t-80bvm",
+  "preview": "/previews/t-80.webp"
+}

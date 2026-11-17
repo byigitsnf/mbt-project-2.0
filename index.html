@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MBT Project</title>
+    <meta
+      name="description"
+      content="A modern guide to the main battle tanks in service today: design, armament, protection, variants and history."
+    />
+    <meta name="theme-color" content="#f5f4ef" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#10120f" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 24px; font-family: system-ui, sans-serif">
+        MBT Project needs JavaScript to run. Please enable it in your browser settings.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

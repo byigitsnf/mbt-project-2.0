@@ -1,0 +1,194 @@
+{
+  "title": "A Short History of the Tank",
+  "description": "From Little Willie in 1915 to today’s main battle tanks: how the tank was born and how it evolved.",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What is a tank?",
+      "id": "1.1"
+    },
+    {
+      "type": "paragraph",
+      "html": "A tank is an armoured fighting vehicle intended as a primary offensive weapon in front-line ground combat. Tank designs are a balance of heavy firepower, strong armour, and good battlefield mobility provided by tracks and a powerful engine; usually their main armament is mounted in a turret. They are a mainstay of modern 20th and 21st century ground forces and a key part of combined arms combat."
+    },
+    {
+      "type": "paragraph",
+      "html": "Until the arrival of the main battle tank, tanks were typically categorized either by weight class (light, medium, heavy or superheavy tanks) or doctrinal purpose (breakthrough-, cavalry-, infantry-, cruiser-, or reconnaissance tanks). Some are larger and very heavily armoured and with large guns, while others are smaller, lightly armoured, and equipped with a smaller caliber and lighter gun. These smaller tanks move over terrain with speed and agility and can perform a reconnaissance role in addition to engaging enemy targets."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/littlewillie",
+      "alt": "Little Willie Tank",
+      "caption": "The first working tank in the world, British Little Willie in 1915"
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/t14armata",
+      "alt": "T14 Armata",
+      "caption": "The most modern tank in the world, Russian T14 Armata in 2015"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tank in different languages",
+      "id": "1.2"
+    },
+    {
+      "type": "paragraph",
+      "html": "The term <strong>\"tank\"</strong> is used throughout the English speaking world, but other countries use different terminology. In France, the second country to use tanks in battle, the word tank or tanque was adopted initially, but was then, largely at the insistence of Colonel J.B.E. Estienne, rejected in favour of <strong>char d'assaut</strong> (\"assault vehicle\") or simply <strong>char</strong> (\"vehicle\"). During World War I, German sources tended to refer to British tanks as Tanks and to their own as Kampfwagen. Later, tanks became referred to as <strong>\"Panzer\"</strong> (lit. \"armour\"), a shortened form of the full term <strong>\"Panzerkampfwagen\"</strong>, literally \"armoured fighting vehicle\". In the Arab world, tanks are called <strong>Dabbāba</strong> (after a type of siege engine). In Italian, a tank is a <strong>\"carro armato\"</strong> (lit. \"armed wagon\"), without reference to its armour. Norway uses the term <strong>stridsvogn</strong> and Sweden the similar <strong>stridsvagn</strong> (lit. \"battle wagon\", also used for \"chariots\"), whereas Denmark uses <strong>kampvogn</strong> (lit. fight wagon). Finland uses <strong>panssarivaunu</strong> (armoured wagon), although tankki is also used colloquially. The Polish name <strong>czołg</strong>, derived from verb czołgać się (\"to crawl\"), is used, depicting the way of machine's movement and its speed. In Hungarian the tank is called <strong>harckocsi</strong> (combat wagon), albeit tank is also common. In Japanese, the term <strong>sensha</strong> (戦車, lit. \"battle vehicle\") is taken from Chinese and used, and this term is likewise borrowed into Korean as <strong>jeoncha</strong> (전차/戰車); more recent Chinese literature uses the English-derived <strong>坦克 tǎnkè</strong> (tank) as opposed to 戰車 <strong>zhànchē</strong> (battle vehicle) used in earlier days."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "World War I",
+      "id": "1.3"
+    },
+    {
+      "type": "paragraph",
+      "html": "Tanks were first used in World War I by British Empire to break the stalemate of trench warfare, and over time they took on classic cavalry duties on the battlefield. The name tank was first used in tank factories in England. From late 1914 a small number of middle-ranking British Army officers tried to persuade the War Office and the Government to consider the creation of armoured vehicles. Amongst their suggestions was the use of caterpillar tractors, but although the Army used many such vehicles for towing heavy guns, it could not be persuaded that they could be adapted as armoured vehicles."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/mark1",
+      "alt": "Mark I Tank 1916",
+      "caption": "British Mark I Tank in 1916"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Interwar Period",
+      "id": "1.4"
+    },
+    {
+      "type": "paragraph",
+      "html": "In the interwar period tanks underwent further mechanical development. In terms of tactics, J.F.C. Fuller's doctrine of spearhead attacks with massed tank formations was the basis for work by Heinz Guderian in Germany, Percy Hobart in Britain, Adna R. Chaffee, Jr., in the US, Charles de Gaulle in France, and Mikhail Tukhachevsky in the USSR. Liddell Hart held a more moderate view that all arms – cavalry, infantry and artillery – should be mechanized and work together. The British formed the all-arms Experimental Mechanized Force to test the use of tanks with supporting forces."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/hotchkissh35",
+      "alt": "Hothckiss H35",
+      "caption": "French Hotchkiss H35 Tank in 1935"
+    },
+    {
+      "type": "paragraph",
+      "html": "Germany, Italy and the Soviet Union all experimented heavily with tank warfare during their clandestine and \"volunteer\" involvement in the Spanish Civil War, which saw some of the earliest examples of successful mechanized combined arms —such as when Republican troops, equipped with Soviet-supplied tanks and supported by aircraft, eventually routed Italian troops fighting for the Nationalists in the seven-day Battle of Guadalajara in 1937. However, of the nearly 700 tanks deployed during this conflict, only about 64 tanks representing the Franco faction and 331 from the Republican side were equipped with cannon, and of those 64 nearly all were World War I vintage Renault FT tanks, while the 331 Soviet supplied machines had 45mm main guns and were of 1930s manufacture. The balance of Nationalist tanks were machine gun armed. The primary lesson learned from this war was that machine gun armed tanks had to be equipped with cannon, with the associated armour inherent to modern tanks."
+    },
+    {
+      "type": "paragraph",
+      "html": "Prior to World War II, the tactics and strategy of deploying tank forces underwent a revolution. In August 1939, Soviet General Georgy Zhukov used the combined force of tanks and airpower at Nomonhan against the Japanese 6th Army; Heinz Guderian, a tactical theoretician who was heavily involved in the formation of the first independent German tank force, said \"Where tanks are, the front is\", and this concept became a reality in World War II. Guderian's armoured warfare ideas, combined with Germany's existing doctrines of Bewegungskrieg (\"maneuver warfare\") and infiltration tactics from World War I, became the basis of blitzkrieg in the opening stages of World War II."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/guderian",
+      "alt": "Guderian",
+      "caption": "General Heinz Guderian, founder of the Blitzkrieg"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "World War II",
+      "id": "1.5"
+    },
+    {
+      "type": "paragraph",
+      "html": "During World War II, the first conflict in which armoured vehicles were critical to battlefield success, the tank and related tactics developed rapidly. Armoured forces proved capable of tactical victory in an unprecedentedly short amount of time, yet new anti-tank weaponry showed that the tank was not invulnerable. During the Invasion of Poland, tanks performed in a more traditional role in close cooperation with infantry units, but in the Battle of France deep independent armoured penetrations were executed by the Germans, a technique later called blitzkrieg. Blitzkrieg used innovative combined arms tactics and radios in all of the tanks to provide a level of tactical flexibility and power that surpassed that of the Allied armour. In accordance with blitzkrieg methods, German tanks bypassed enemy strongpoints and could radio for close air support to destroy them, or leave them to the infantry. A related development, motorized infantry, allowed some of the troops to keep up with the tanks and create highly mobile combined arms forces. The defeat of a major military power within weeks shocked the rest of the world, spurring tank and anti-tank weapon development."
+    },
+    {
+      "type": "paragraph",
+      "html": "Tank hulls were modified to produce flame tanks, mobile rocket artillery, and combat engineering vehicles for tasks including mine-clearing and bridging. Specialized self-propelled guns, most of which could double as tank destroyers, were also both developed by the Germans—with their Sturmgeschütz, Panzerjäger and Jagdpanzer vehicles—and the Samokhodnaya ustanovka families of AFV's for the Soviets: such turretless, casemate-style tank destroyers and assault guns were less complex, stripped down tanks carrying heavy guns, solely firing forward. The firepower and low cost of these vehicles made them attractive but as manufacturing techniques improved and larger turret rings made larger tank guns feasible, the gun turret was recognized as the most effective mounting for the main gun to allow movement in a different direction from firing, enhancing tactical flexibility."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/tiger1",
+      "alt": "Tiger I Tank 1943",
+      "caption": "German Tiger Tank in 1943"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Cold War",
+      "id": "1.6"
+    },
+    {
+      "type": "paragraph",
+      "html": "During the Cold War, tension between the Warsaw Pact countries and North Atlantic Treaty Organization (NATO) countries created an arms race that ensured that tank development proceeded largely as it had during World War II. The essence of tank designs during the Cold War had been hammered out in the closing stages of World War II. Large turrets, capable suspension systems, greatly improved engines, sloped armour and large-caliber (90 mm and larger) guns were standard. Tank design during the Cold War built on this foundation and included improvements to fire control, gyroscopic gun stabilization, communications (primarily radio) and crew comfort and saw the introduction of laser rangefinders and infrared night vision equipment. Armour technology progressed in an ongoing race against improvements in anti-tank weapons, especially antitank guided missiles like the TOW."
+    },
+    {
+      "type": "paragraph",
+      "html": "Medium tanks of World War II evolved into the main battle tank (MBT) of the Cold War and took over the majority of tank roles on the battlefield. This gradual transition occurred in the 1950s and 1960s due to anti-tank guided missiles, sabot ammunition and high-explosive anti-tank warheads. World War II had shown that the speed of a light tank was no substitute for armour & firepower and medium tanks were vulnerable to newer weapon technology, rendering them obsolete."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/m60a1",
+      "alt": "M60A1",
+      "caption": "American M60A1 Patton Tank (1963)"
+    },
+    {
+      "type": "paragraph",
+      "html": "In a trend started in World War II, economies of scale led to serial production of progressively upgraded models of all major tanks during the Cold War. For the same reason many upgraded post-World War II tanks and their derivatives (for example, the T-55 and T-72) remain in active service around the world, and even an obsolete tank may be the most formidable weapon on battlefields in many parts of the world. Among the tanks of the 1950s were the British Centurion and Soviet T-54/55 in service from 1946, and the US M48 from 1951. These three vehicles formed the bulk of the armoured forces of NATO and the Warsaw Pact throughout much of the Cold War. Lessons learned from tanks such as the Leopard 1, M48 Patton series, Chieftain, and T-72 led to the contemporary Leopard 2, M1 Abrams, Challenger 2, C1 Ariete, T-90 and Merkava IV."
+    },
+    {
+      "type": "paragraph",
+      "html": "Tanks and anti-tank weapons of the Cold War era saw action in a number of proxy wars like the Korean War, Vietnam War, Indo-Pakistani War of 1971, Soviet–Afghan War and Arab-Israeli conflicts, culminating with the Yom Kippur War. The T-55, for example, has seen action in no fewer than 32 conflicts. In these wars the U.S. or NATO countries and the Soviet Union or China consistently backed opposing forces. Proxy wars were studied by Western and Soviet military analysts and provided a contribution to the Cold War tank development process."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/t72a",
+      "alt": "T72A",
+      "caption": "Soviet T-72A Tank (1973)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "21st Century",
+      "id": "1.7"
+    },
+    {
+      "type": "paragraph",
+      "html": "The role of tank vs. tank combat is becoming diminished. Tanks work in concert with infantry in urban warfare by deploying them ahead of the platoon. When engaging enemy infantry, tanks can provide covering fire on the battlefield. Conversely, tanks can spearhead attacks when infantry are deployed in personnel carriers."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/leopard",
+      "alt": "Leopard2A5",
+      "caption": "German Leopard 2A5 Tanks in 2010"
+    },
+    {
+      "type": "paragraph",
+      "html": "Tanks were used to spearhead the initial US invasion of Iraq in 2003. As of 2005, there were 1,100 M1 Abrams used by the United States Army in the course of the Iraq War, and they have proven to have an unexpectedly high level of vulnerability to roadside bombs. A relatively new type of remotely detonated mine, the explosively formed penetrator has been used with some success against American armoured vehicles (particularly the Bradley fighting vehicle). However, with upgrades to their armour in the rear, M1s have proven invaluable in fighting insurgents in urban combat, particularly at the Battle of Fallujah, where the US Marines brought in two extra brigades. Israeli Merkava tanks contain features that enable them to support infantry in low intensity conflicts (LIC) and counter-terrorism operations. Such features are the rear door and rear corridor, enabling the tank to carry infantry and embark safely; the IMI APAM-MP-T multi-purpose ammunition round, advanced C4IS systems and recently: TROPHY active protection system which protects the tank from shoulder-launched anti-tank weapons. During the Second Intifada further modifications were made, designated as \"Merkava Mk. 3d Baz LIC\"."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/c1ariete",
+      "alt": "C1 Ariete",
+      "caption": "Italian C1 Ariete Tanks in 2022"
+    },
+    {
+      "type": "paragraph",
+      "html": "In terms of firepower, the focus of 2010s-era R&D was increased detection capability such as thermal imagers, automated fire control systems for the guns and increased muzzle energy from the gun to improve range, accuracy and armour penetration. The most mature future gun technology is the electrothermal-chemical gun. The XM291 electrothermal-chemical tank gun has gone through successful multiple firing sequences on a modified American M8 Armored Gun System chassis. To improve tank protection, one field of research involves making the tank invisible to radar by adapting stealth technologies originally designed for aircraft. Improvements to camouflage or and attempts to render it invisible through active camouflage, which changes according to where the tank is located, are being pursued. Research is also ongoing in electromagnetic armour systems to disperse or deflect incoming shaped charges, as well as various forms of active protection systems to prevent incoming projectiles (RPGs, missiles, etc.) from striking the tank."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/t90aaps",
+      "alt": "T-90A",
+      "caption": "Russian T-90A Vladimir Tank with its \"Shtora-1\" APS Activated (2004)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Future",
+      "id": "1.8"
+    },
+    {
+      "type": "paragraph",
+      "html": "Mobility may be enhanced in future tanks by the use of diesel-electric or turbine-electric series hybrid drives—first used in a primitive, gasoline-engined form with Porsche's Elefant German tank destroyer of 1943—improving fuel efficiency while reducing the size and weight of the power plant. Furthermore, advances in gas turbine technology, including the use of advanced recuperators, have allowed for reduction in engine volume and mass to less than 1 m3 and 1 metric ton, respectively, while maintaining fuel efficiency similar to that of a diesel engine. In line with the new doctrine of network-centric warfare, the 2010s-era modern battle tank shows increasing sophistication in its electronics and communication systems. The future of tanks has been challenged by the proliferation of relatively inexpensive anti tank guided missiles and rockets during the Russo-Ukrainian War."
+    },
+    {
+      "type": "figure",
+      "image": "articles/history/abramsx",
+      "alt": "AbramsX",
+      "caption": "American Next-Generation Abrams X Tank for 2030"
+    }
+  ]
+}

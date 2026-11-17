@@ -1,0 +1,427 @@
+{
+  "name": "M1 Abrams",
+  "country": "USA",
+  "countryCode": "US",
+  "order": 1,
+  "summary": "M1 Abrams is a third generation American main battle tank designed by Chrysler Defence.",
+  "flag": "flags/usaround",
+  "cardImage": "cards/abrams",
+  "preview": "/previews/m1-abrams.webp",
+  "heroImage": "m1-abrams/m1a2abrams",
+  "intro": [
+    "The M1 Abrams is a third-generation American main battle tank designed by Chrysler Defense (now General Dynamics Land Systems) and named for General Creighton Abrams. Conceived for modern armored ground warfare and now one of the heaviest tanks in service at nearly 68 short tons, it introduced several modern technologies to US armored forces. Initial models of the M1 were armed with a 105 mm M68 gun, while later variants feature a license-produced Rheinmetall 120 mm L/44 designated M256."
+  ],
+  "historyLink": "/history/nato/#AbramsHistory",
+  "features": [
+    "M1: 105 mm L/52 M68A1 rifled gun",
+    "M1A1: 120 mm L/44 M256 smoothbore gun",
+    "1 × 12.7 mm M2HB heavy machine gun",
+    "2 × 7.62 mm M240 machine guns",
+    "Honeywell AGT1500 multi-fuel turbine engine",
+    "1909 L Fuel Capacity",
+    "426 km Operation Range",
+    "72 km/h top speed"
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Design",
+      "id": "design"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Armor",
+      "id": "armor"
+    },
+    {
+      "type": "paragraph",
+      "html": "Similar to most other main battle tanks, the M1 Abrams feature composite armor only on the frontal aspect of the hull. However, the Abrams' turret features composite armoring across both the front and the sides. In addition, the side skirts of the frontal half of the hull are also made of composite, providing superior ballistic protection against chemical energy munitions such as HEAT rounds. The composition of the Abrams' composite armor consists of sandwiched plates of non-explosive reactive armor (NERA) between conventional steel plates. The NERA plates feature elasticity, allowing them to flex and distort upon perforation, disrupting the penetrating jets of shaped charges and providing more material and space for a kinetic round to pass through, thus providing increased protection compared to conventional steel armor of similar weight. For the M1 Abrams base model, Steven Zaloga estimates the frontal armor at 350 mm vs APFSDS and 700 mm vs HEAT warhead in the book, M1 Abrams Main Battle Tank 1982–1992 (1993). In M1 Abrams vs T-72 Ural (2009), he uses Soviet estimates of 470 mm vs APFSDS and 650 mm vs HEAT for the base model Abrams. He also gives the Soviet estimates for the M1A1, 600 mm vs APFSDS, and 700 mm vs HEAT."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/compositearmor",
+      "alt": "M1 Abrams's frontal armor",
+      "caption": "M1 Abrams's frontal armor"
+    },
+    {
+      "type": "paragraph",
+      "html": "Armor protection was improved by implementing a new special armor incorporating depleted uranium and other undisclosed materials and layouts. This was introduced into the M1A1 production starting October 1988. This new armor increased effective armor particularly against kinetic energy rounds but at the expense of adding considerable weight to the tank, as depleted uranium is 1.7 times denser than lead."
+    },
+    {
+      "type": "paragraph",
+      "html": "The first M1A1 tanks to receive this upgrade were tanks stationed in Germany. US-based tank battalions participating in Operation Desert Storm received an emergency program to upgrade their tanks with depleted uranium armor immediately before the onset of the campaign. M1A2 tanks uniformly incorporate depleted uranium armor, and all M1A1 tanks in active service have been upgraded to this standard as well. This variant was designated as the M1A1HA (HA for Heavy Armor)."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/abramsarmorxray",
+      "alt": "Abrams' armor placement",
+      "caption": "Abrams' armor placement"
+    },
+    {
+      "type": "paragraph",
+      "html": "The M1A1 AIM, M1A2 SEP and all subsequent Abrams models feature depleted uranium in both the hull and turret armor. Each Abrams variant after the M1A1 have been equipped with depleted uranium armor of different generations. The M1A1HA uses first generation armor, while the M1A2 and M1A1HC use second generation depleted uranium. The M1A2 SEP variants have been equipped with third generation depleted uranium armor combined with a graphite coating. The M1A2C also features increased physical line-of-sight turret armor."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Damage Control",
+      "id": "damage-control"
+    },
+    {
+      "type": "paragraph",
+      "html": "The tank has a halon firefighting system to automatically extinguish fires in the crew compartment. The engine compartment has a firefighting system that is engaged by pulling a T-handle located on the left side of the hull. The Halon gas can be dangerous to the crew. However, the toxicity of Halon 1301 gas at 7% concentration is much lower than the combustion products produced by fire in the crew compartment, and CO2 dump would be lethal to the crew."
+    },
+    {
+      "type": "paragraph",
+      "html": "The crew compartment also contains small hand-held fire extinguishers. Fuel and ammunition are stored in armored compartments with blowout panels intended to protect the crew from the risk of the tank's own ammunition cooking off (exploding) if the tank is damaged. The main gun's ammunition is stored in the rear section of the turret, with blast doors that open under power by sliding sideways only to remove a round for firing, then automatically close. Doctrine mandates that the ammunition door must be closed before arming the main gun."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tank Urban Survival Kit",
+      "id": "tank-urban-survival-kit"
+    },
+    {
+      "type": "paragraph",
+      "html": "The Tank Urban Survival Kit (TUSK) is a series of improvements to the M1 Abrams intended to improve fighting ability in urban environments. Historically, urban and other close battlefields have been poor places for tanks to fight. A tank's front armor is much stronger than that on the sides, top, or rear. In an urban environment, attacks can come from any direction, and attackers can get close enough to reliably hit weak points in the tank's armor or gain sufficient elevation to hit the top armor."
+    },
+    {
+      "type": "paragraph",
+      "html": "The TUSK system is a field-installable kit that allows tanks to be upgraded without needing to be recalled to a maintenance depot. While the reactive armor may not be needed in most situations, like those present in maneuver warfare, items like the rear slat armor, loader's gun shield, infantry phone (which saw use on Marine Corps M1A1s as early as 2003), and Kongsberg Remote Weapons Station for the 12.7 mm caliber machine gun will eventually be added to the entire M1A2 fleet."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/m1a2tusk",
+      "alt": "M1A2 Abrams with TUSK package",
+      "caption": "M1A2 Abrams with TUSK package"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Active Protection System",
+      "id": "active-protection-system"
+    },
+    {
+      "type": "paragraph",
+      "html": "In 2016, the U.S. Army and Marine Corps began testing out the Israeli Trophy active protection system to protect their Abrams tanks from modern RPG and ATGM threats by either jamming (with ATGMs) or firing small rounds to deflect incoming projectiles. The Army planned to field a brigade of over 80 tanks equipped with Trophy to Europe in 2020. It is planned for up to 261 Abrams to be upgraded with the system, enough for four brigades."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/abramstrophy",
+      "alt": "Trophy APS installed on M1A1",
+      "caption": "Trophy APS installed on M1A1"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Armament",
+      "id": "armament"
+    },
+    {
+      "type": "paragraph",
+      "html": "The main armament of the original model M1 and M1IP was the M68A1 105 mm rifled tank gun firing a variety of APFSDS, HEAT, high explosive, white phosphorus rounds and an anti-personnel (multiple flechette) round. This gun used a license-made tube of the British Royal Ordnance L7 gun together with the vertical sliding breech block and other parts of the U.S. T254E2 prototype gun. However, a longer ranged weapon was always envisaged, with lethality beyond 3 km to combat newer armor technologies. To attain that lethality, the projectile diameter needed to be increased. The tank was able to carry 55 105 mm rounds, with 44 stored in the turret blow-out compartment and the rest in hull stowage."
+    },
+    {
+      "type": "paragraph",
+      "html": "The main armament of the M1A1 and M1A2 is the M256 120 mm smoothbore gun, designed by Rheinmetall AG of Germany, manufactured under license in the U.S. by Watervliet Arsenal, New York. The M256 is an improved variant of the Rheinmetall 120 mm L/44 gun carried on the German Leopard 2 on all variants up to the Leopard 2A5, the difference being in thickness and chamber pressure. Leopard 2A6 replaced the L/44 barrel with a longer L/55. Due to the increased caliber, only 40 or 42 rounds are able to be stored depending on if the tank is an A1 or A2 model."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Fire Control Systems",
+      "id": "fire-control-systems"
+    },
+    {
+      "type": "paragraph",
+      "html": "The Abrams is equipped with a ballistic fire-control computer that uses user and system-supplied data from a variety of sources to compute, display, and incorporate the three components of a ballistic solution—lead angle, ammunition type, and range to the target—to accurately fire the main gun. These three components are determined using a laser rangefinder, crosswind sensor, a pendulum static cant sensor, data concerning performance and flight characteristics of each specific type of round, tank-specific boresight alignment data, ammunition temperature, air temperature, barometric pressure, a muzzle reference system (MRS) that determines and compensates for barrel drop at the muzzle due to gravitational pull and barrel heating due to firing or sunlight, and target speed determined by tracking rate tachometers in the Gunner's or Commander's Controls Handles."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Mobility",
+      "id": "mobility"
+    },
+    {
+      "type": "paragraph",
+      "html": "The M1 Abrams's powertrain consists of an AGT1500 multifuel gas turbine (originally made by Lycoming, now Honeywell) capable of 1,500 shaft horsepower (1,100 kW) at 30,000 rpm and 395 lb⋅ft (536 N⋅m) at 10,000 rpm and a six-speed (four forward, two reverse) Allison X-1100-3B Hydro-Kinetic automatic transmission. This gives it a governed top speed of 72 km/h on paved roads, and 48 km/h cross-country. With the engine governor removed, speeds of around 60 mph (97 km/h) are possible on an improved surface. However, damage to the drivetrain (especially to the tracks) and an increased risk of injuries to the crew can occur at speeds above 72 km/h."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Abrams Variants",
+      "id": "abrams-variants"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "XM1-FSED",
+      "id": "XM1"
+    },
+    {
+      "type": "paragraph",
+      "html": "Preproduction test model. Eleven Full-Scale Engineering Development test bed vehicles were produced in 1977–78. These vehicles were also called Pilot Vehicles and numbered PV-1 through PV-11."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/xm1fsed",
+      "alt": "XM1-FSED Pilot Vehicle",
+      "caption": "XM1-FSED Pilot Vehicle"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1",
+      "id": "M1"
+    },
+    {
+      "type": "paragraph",
+      "html": "First production variant. Production began (at Chrysler) in 1979 and continued to 1985 (at General Dynamics) (3,273 built for the US). The first 110 tanks were low rate initial production (LRIP) models, still called XM1s, because they were built before the tank being type-classified as the M1."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/earlym1",
+      "alt": "An early M1 variant",
+      "caption": "An early M1 variant"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1IP (Improved Performance)",
+      "id": "M1IP"
+    },
+    {
+      "type": "paragraph",
+      "html": "Produced briefly in 1984 before the M1A1, contained upgrades and reconfigurations like new turret with thicker frontal armor, new turret with rear storage rack is referred as long turret instead of older short turret, armor upgraded from ~650mm line of sight thickness to ~880mm (894 built for US)."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/m1ip",
+      "alt": "M1IP",
+      "caption": "M1IP"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1",
+      "id": "M1A1"
+    },
+    {
+      "type": "paragraph",
+      "html": "Production started in 1985 and continued to 1992, pressurized NBC system, rear bustle rack for improved stowage of supplies and crew belongings, redesigned blow-off panels and M256 120 mm smoothbore cannon (4,976 built for the U.S. Army, 221 for USMC, 59 M1A1 AIM SA sold to Australia)."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/m1a12004",
+      "alt": "M1A1 Tank in Iraq, 2004",
+      "caption": "M1A1 Tank in Iraq, 2004"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1HA (Heavy Armor)",
+      "id": "m1a1ha-heavy-armor"
+    },
+    {
+      "type": "paragraph",
+      "html": "Added first generation depleted uranium armor components. Some tanks were later upgraded with second generation depleted uranium armor components, and are unofficially designated M1A1HA+"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1HC (Heavy Common)",
+      "id": "m1a1hc-heavy-common"
+    },
+    {
+      "type": "paragraph",
+      "html": "Added new second generation depleted uranium armor components, digital engine control and other small upgrades common between Army and Marine Corps tanks."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1D (Digital)",
+      "id": "m1a1d-digital"
+    },
+    {
+      "type": "paragraph",
+      "html": "A digital upgrade for the M1A1HC, to keep up with M1A2 SEP, manufactured in quantity for only 2 battalions."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1 AIM (Abrams Integrated Management)",
+      "id": "m1a1-aim-abrams-integrated-management"
+    },
+    {
+      "type": "paragraph",
+      "html": "A program whereby older units are reconditioned to zero hour conditions; and the tank is improved by adding Forward-Looking InfraRed (FLIR) and Far Target Locate sensors, a tank-infantry phone, communications gear, including FBCB2 and Blue Force Tracking to aid in crew situational awareness, and a thermal sight for the .50 caliber machine gun."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/m1a1aim",
+      "alt": "Australian M1A1 AIM",
+      "caption": "Australian M1A1 AIM"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1SA (Situational Awareness)",
+      "id": "m1a1sa-situational-awareness"
+    },
+    {
+      "type": "paragraph",
+      "html": "Upgrades similar to AIM v.1 tanks + new third generation depleted uranium armor components. Configuration for the Royal Moroccan Army, which is almost identical to the Australian variant, except exportable turret armor is installed by General Dynamics Land System to replace the DU armor."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1 FEP (Firepower Enhancement Package)",
+      "id": "m1a1-fep-firepower-enhancement-package"
+    },
+    {
+      "type": "paragraph",
+      "html": "Similar upgrade to AIM v.2 for USMC tanks."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1 KVT (Krasnovian Variant Tank)",
+      "id": "m1a1-kvt-krasnovian-variant-tank"
+    },
+    {
+      "type": "paragraph",
+      "html": "M1A1s that have been visually modified to resemble Soviet-made tanks for use at the National Training Center, fitted with MILES gear and a Hoffman device."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/kvt",
+      "alt": "M1A1 KVT",
+      "caption": "M1A1 KVT"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1M",
+      "id": "m1a1m"
+    },
+    {
+      "type": "paragraph",
+      "html": "An export variant ordered by the Iraqi Army."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A1 (AIDATS upgrade)",
+      "id": "m1a1-aidats-upgrade"
+    },
+    {
+      "type": "paragraph",
+      "html": "(AIDATS upgrade): Upgrade-only variant to all USMC General Dynamics M1A1 Abrams tanks to improve the tank commander's situational awareness with an upgraded thermal sight, color day camera, and a stationary color display."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A2",
+      "id": "M1A2"
+    },
+    {
+      "type": "paragraph",
+      "html": "Production began in 1992 and initial operating capability achieved in 1993. (77 built for the U.S. and more than 600 M1s upgraded to M1A2, 315 for Saudi Arabia, 1,005 for Egypt, 218 for Kuwait). The M1A2 offers the tank commander an independent thermal sight and ability to, in rapid sequence, shoot at two targets without the need to acquire each one sequentially, also second-generation depleted uranium armor components."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/m1a2",
+      "alt": "M1A2",
+      "caption": "M1A2"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A2 SEP (System Enhancement Package)",
+      "id": "m1a2-sep-system-enhancement-package"
+    },
+    {
+      "type": "paragraph",
+      "html": "Is fitted with new, second-generation gunner's thermal sight. Has upgraded third-generation depleted uranium armor components with graphite coating (240 new built, 300 M1A2s upgraded to M1A2 SEP for the US, also unknown numbers of upgraded basic M1s and M1IPs, also 400 oldest M1A1s upgraded to M1A2 SEP)."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A2S (Saudi Package)",
+      "id": "m1a2s-saudi-package"
+    },
+    {
+      "type": "paragraph",
+      "html": "Saudi Arabian variant upgrade of the M1A2 based on M1A2 SEP, with some features, such as depleted uranium armor, believed to be missing and replaced by special armor. (442 M1A2s upgraded to M1A2S)"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A2 SEPv2",
+      "id": "m1a2-sepv2"
+    },
+    {
+      "type": "paragraph",
+      "html": "Added Common Remotely Operated Weapon Station low-profile as standard, color displays, improved interfaces, a new operating system, improved crew-compartment cooling, and new second generation thermal optics."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/m1a2sepv2",
+      "alt": "M1A2 SEPv2",
+      "caption": "M1A2 SEPv2"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A2 SEPv3",
+      "id": "m1a2-sepv3"
+    },
+    {
+      "type": "paragraph",
+      "html": "(formerly M1A2C): Has increased power generation and distribution, better communications and networking, new Vehicle Health Management System (VHMS) and Line Replaceable Modules (LRMs) for improved maintenance, an Ammunition DataLink (ADL) to use airburst rounds, improved counter-IED armor package, Next Generation Armor Package (NGAP), and an Auxiliary Power Unit (APU) under armor to run electronics while stationary instead of the engine, visually distinguishing the version by a small exhaust at the left rear. More passive ballistic protection added to the turret faces, along with new Explosive Reactive Armor mountings (Abrams Reactive Armor Tile (ARAT)) and Trophy Active Protection systems added to the turret sides. Prototypes began testing in 2015, and the first were delivered in October 2017. The first unit received them in July 2020."
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/1l-image-abrams-m1a2-sepv3",
+      "alt": "M1A2 SEPv3",
+      "caption": "M1A2 SEPv3"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1A2 SEPv4",
+      "id": "m1a2-sepv4"
+    },
+    {
+      "type": "paragraph",
+      "html": "The 2-12 Cavalry Regiment received the first M1A2 SEPv4 tank as of 21 January 2023. It was previously under development as of 29 March 2022. The Commander's Primary Sight, also known as the Commander's Independent Thermal Viewer, and Gunner's Primary Sight will be upgraded with third Gen FLIR, an improved laser rangefinder and color cameras. Additional improvements will include advanced meteorological sensors, laser warning/detection receivers, directional smoke grenade launchers and integration of the new XM1147 advanced multi-purpose (AMP) 120mm tank round. The AN/VVR-4 laser warning receiver and ROSY rapid obscurant system have been trialed by the US Army for adoption on the Abrams tank and Bradley fighting vehicle. The M1A2 SEPv4 variant was officially canceled by the U.S. Army on 6 September 2023. The Army plans to develop a new variant of the Abrams, designated M1E3, to enter service in the 2030s."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "M1E3",
+      "id": "M1E3"
+    },
+    {
+      "type": "paragraph",
+      "html": "Under development as of 2023. On 6 September 2023, the U.S. army announced that it had canceled the planned M1A2 SEPv4 variant and would instead redirect resources into a new variant of the Abrams tank, named M1E3. The new variant will include modular open-systems architecture and is designed to be lighter and more survivable on the battlefield."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Abrams X",
+      "id": "AbramsX"
+    },
+    {
+      "type": "paragraph",
+      "html": "A technology demonstrator of the M1 Abrams series by General Dynamics Land Systems. The AbramsX features a lightweight Watervliet Arsenal XM360 smoothbore gun with pepperpot muzzle brake, an autoloader which reduces the crew to three, an unmanned turret, a hybrid diesel-electric Cummins ACE power pack that gives 50% more fuel efficiency, a 30 mm XM914 chain gun in a remote weapon station, Trophy active protection systems with three launchers, an augmented reality suite that would increase the crews' situational awareness thanks to cameras and sensors mounted around the tank's exterior, a silent mode when running on electric power, the ability to be updated more easily than existing tanks and use loitering munitions such as the AeroVironment Switchblade as well as surveillance drones, and reduced weight for improved mobility. In October 2022, GDLS released a video showing the Technology Demonstrator and various technology tests"
+    },
+    {
+      "type": "figure",
+      "image": "m1-abrams/abramsx",
+      "alt": "AbramsX",
+      "caption": "AbramsX"
+    }
+  ]
+}

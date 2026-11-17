@@ -1,0 +1,10 @@
+{
+  "name": "T-90",
+  "country": "Russia",
+  "countryCode": "RU",
+  "order": 2,
+  "summary": "The T-90 is a third-generation Russian main battle tank developed to replace the T-72.",
+  "flag": "flags/russiaround1",
+  "cardImage": "cards/t-90ma",
+  "preview": "/previews/t-90.webp"
+}
