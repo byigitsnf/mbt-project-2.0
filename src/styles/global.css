@@ -274,20 +274,20 @@ a:hover {
 /* ------------------------------------------------------------ era accents
    Layout sets <html data-era="…"> for every era except Modern, which keeps the default olive. */
 :root[data-era='ww1'] { --accent: #6b4a2b; --accent-strong: #4f3519; --accent-soft: #efe3d3; }
-:root[data-era='pre-war'] { --accent: #2f5566; --accent-strong: #1f3d4a; --accent-soft: #dce8ec; }
+:root[data-era='interwar'] { --accent: #2f5566; --accent-strong: #1f3d4a; --accent-soft: #dce8ec; }
 :root[data-era='ww2'] { --accent: #7a3b2e; --accent-strong: #5a2a20; --accent-soft: #f1dfd9; }
 :root[data-era='post-war'] { --accent: #474d6e; --accent-strong: #31364f; --accent-soft: #e1e3ee; }
 :root[data-era='cold-war'] { --accent: #8a2b2b; --accent-strong: #651e1e; --accent-soft: #f3dcdc; }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light'])[data-era='ww1'] { --accent: #d9b98c; --accent-strong: #ecd2ad; --accent-soft: #33281b; }
-  :root:not([data-theme='light'])[data-era='pre-war'] { --accent: #9cc6d6; --accent-strong: #bfdde8; --accent-soft: #1c2c33; }
+  :root:not([data-theme='light'])[data-era='interwar'] { --accent: #9cc6d6; --accent-strong: #bfdde8; --accent-soft: #1c2c33; }
   :root:not([data-theme='light'])[data-era='ww2'] { --accent: #e3a090; --accent-strong: #f0c0b3; --accent-soft: #3a221c; }
   :root:not([data-theme='light'])[data-era='post-war'] { --accent: #b6bce0; --accent-strong: #d0d4ef; --accent-soft: #262a3d; }
   :root:not([data-theme='light'])[data-era='cold-war'] { --accent: #ef9a9a; --accent-strong: #f6bdbd; --accent-soft: #3d1f1f; }
 }
 :root[data-theme='dark'][data-era='ww1'] { --accent: #d9b98c; --accent-strong: #ecd2ad; --accent-soft: #33281b; }
-:root[data-theme='dark'][data-era='pre-war'] { --accent: #9cc6d6; --accent-strong: #bfdde8; --accent-soft: #1c2c33; }
+:root[data-theme='dark'][data-era='interwar'] { --accent: #9cc6d6; --accent-strong: #bfdde8; --accent-soft: #1c2c33; }
 :root[data-theme='dark'][data-era='ww2'] { --accent: #e3a090; --accent-strong: #f0c0b3; --accent-soft: #3a221c; }
 :root[data-theme='dark'][data-era='post-war'] { --accent: #b6bce0; --accent-strong: #d0d4ef; --accent-soft: #262a3d; }
 :root[data-theme='dark'][data-era='cold-war'] { --accent: #ef9a9a; --accent-strong: #f6bdbd; --accent-soft: #3d1f1f; }

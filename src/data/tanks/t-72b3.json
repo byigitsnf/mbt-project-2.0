@@ -1,0 +1,10 @@
+{
+  "name": "T-72B3",
+  "country": "Russia",
+  "countryCode": "RU",
+  "order": 6,
+  "introduced": 2010,
+  "summary": "A Russian modernisation of the Soviet T-72B with the Sosna-U thermal sight, an upgraded 125 mm gun and digital communications.",
+  "flag": "flags/russiaround1",
+  "cardImage": "cards/t72b3"
+}

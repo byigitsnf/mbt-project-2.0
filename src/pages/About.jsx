@@ -1,5 +1,9 @@
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import { usePage } from '../lib/usePage.js';
+import { tanks } from '../lib/content.js';
+
+// Tanks whose card photo needs an attribution (set `photoCredit` in the tank's JSON file).
+const credited = tanks.filter((t) => t.photoCredit);
 
 export default function About() {
   usePage('About', 'What MBT Project is, where its information comes from, and how the site was built.');
@@ -30,6 +34,19 @@ export default function About() {
             <li>Animations play only on request and are turned off if you prefer reduced motion.</li>
             <li>Text meets WCAG AA contrast and the layout adapts from phones to wide screens and up to 400% zoom.</li>
           </ul>
+          {credited.length > 0 && (
+            <>
+              <h2>Photo credits</h2>
+              <ul>
+                {credited.map(({ id, name, photoCredit: c }) => (
+                  <li key={id}>
+                    {name}: <a href={c.source}>photo</a> by {c.author},{' '}
+                    {c.licenseUrl ? <a href={c.licenseUrl}>{c.license}</a> : c.license}, via Wikimedia Commons.
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
           <p>Thanks for visiting!</p>
         </div>
         <picture>

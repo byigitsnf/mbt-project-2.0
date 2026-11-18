@@ -1,0 +1,16 @@
+{
+  "name": "Leopard 2A6",
+  "country": "Germany",
+  "countryCode": "DE",
+  "flag": "flags/germanyround",
+  "cardImage": "cards/leopard-2a6",
+  "order": 20,
+  "introduced": 2001,
+  "summary": "A Leopard 2A5 rearmed with the longer Rheinmetall 120 mm L/55 gun for a higher muzzle velocity. It entered German service in 2001.",
+  "photoCredit": {
+    "author": "Ministerie van Defensie (Netherlands)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Leopard_2A6_Klietz_2018.jpg"
+  }
+}

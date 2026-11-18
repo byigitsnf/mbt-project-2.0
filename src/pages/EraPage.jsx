@@ -1,6 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { usePage } from '../lib/usePage.js';
-import { profiles } from '../lib/content.js';
+import { tanks } from '../lib/content.js';
 import { ERAS, eraPath, getWipEra } from '../data/eras.js';
 import NotFound from './NotFound.jsx';
 
@@ -44,8 +44,8 @@ export default function EraPage() {
         <aside className="era-callout" aria-labelledby="era-callout-title">
           <h2 id="era-callout-title">Ready to read now</h2>
           <p>
-            The Modern Era is complete, with {profiles.length} full tank profiles, a history of tank development and a
-            guide to armour and ammunition.
+            The Modern Era covers {tanks.length} main battle tanks in service today, a history of tank development and
+            a guide to armour and ammunition.
           </p>
           <p>
             <Link className="button" to="/">

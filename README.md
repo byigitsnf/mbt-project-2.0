@@ -24,7 +24,7 @@ npm run preview   # derlenmiş siteyi http://localhost:4173 adresinde açar
 ```
 index.html                 # Uygulamanın giriş sayfası
 source-images/             # Orijinal fotoğraflar (images betiğinin girdisi)
-public/previews/           # Kartlarda oynayan animasyonlar (WebP)
+public/previews/           # About sayfasındaki animasyon (WebP)
 scripts/build-images.mjs   # Duyarlı (responsive) görselleri üreten betik
 src/
   main.jsx                 # Rotalar (react-router)
@@ -72,8 +72,8 @@ Hedef WCAG 2.2 AA'dır.
 
 ## Bilinen eksikler
 
-- T-90, T-80, T-72 ve T-14 Armata için orijinal projede detay sayfası yoktu; bu tanklar yalnızca kart olarak görünür.
-- Karrar sayfasındaki bir fotoğraf orijinal projede de eksikti.
+- Profiller yeniden yazılıyor: şu an bütün tanklar yalnızca kart olarak görünür ("Full profile coming soon").
+  Eski profillerin içeriği git geçmişinde duruyor.
 - Bütün içerik ilk yüklemede gelir (~135 KB gzip JS). Daha çok tank eklenirse sayfalar ayrı parçalara bölünebilir.
 
 İçerik kamuya açık kaynaklardan derlenmiştir.

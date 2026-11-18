@@ -78,10 +78,12 @@ export default function Home() {
               <dt>Countries</dt>
               <dd>{countries.length}</dd>
             </div>
-            <div>
-              <dt>In-depth profiles</dt>
-              <dd>{profiles.length}</dd>
-            </div>
+            {profiles.length > 0 && (
+              <div>
+                <dt>In-depth profiles</dt>
+                <dd>{profiles.length}</dd>
+              </div>
+            )}
           </dl>
         </div>
       </section>
@@ -90,7 +92,7 @@ export default function Home() {
         <div className="section-head">
           <div>
             <h2 id="tanks-title">The tanks</h2>
-            <p className="section-head__sub">Hover or focus a card to see the tank in motion.</p>
+            <p className="section-head__sub">Grouped by the year each tank entered service.</p>
           </div>
 
           <form className="filters" role="search" aria-label="Filter tanks" onSubmit={(e) => e.preventDefault()}>

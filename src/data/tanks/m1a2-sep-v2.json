@@ -1,0 +1,16 @@
+{
+  "name": "M1A2 SEP v2",
+  "country": "USA",
+  "countryCode": "US",
+  "flag": "flags/usaround",
+  "cardImage": "cards/m1a2-sep-v2",
+  "order": 22,
+  "introduced": 2008,
+  "summary": "The second System Enhancement Package added a remotely operated weapon station, colour displays, improved sights and armour upgrades to the M1A2.",
+  "photoCredit": {
+    "author": "Ministerstwo Obrony Narodowej (Poland)",
+    "license": "CC BY 3.0 PL",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Szkolenie_na_czo%C5%82gach_M1A2sepV2_Abrams.jpg"
+  }
+}

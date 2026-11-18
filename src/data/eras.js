@@ -16,8 +16,8 @@ export const ERAS = [
     ],
   },
   {
-    id: 'pre-war',
-    name: 'Pre-War Era',
+    id: 'interwar',
+    name: 'Interwar Era',
     years: '1919–1938',
     wip: true,
     summary:

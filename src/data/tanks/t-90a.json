@@ -1,0 +1,16 @@
+{
+  "name": "T-90A",
+  "country": "Russia",
+  "countryCode": "RU",
+  "order": 2,
+  "introduced": 2005,
+  "summary": "An improved T-90 with a welded turret, a more powerful V-92S2 engine and a thermal sight, accepted into Russian service in 2005.",
+  "flag": "flags/russiaround1",
+  "cardImage": "cards/t-90a",
+  "photoCredit": {
+    "author": "Vitaly V. Kuzmin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:T-90A_-_TankBiathlon2013-12.jpg"
+  }
+}

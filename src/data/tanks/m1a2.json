@@ -1,0 +1,15 @@
+{
+  "name": "M1A2",
+  "country": "USA",
+  "countryCode": "US",
+  "flag": "flags/usaround",
+  "cardImage": "cards/m1a2",
+  "order": 19,
+  "introduced": 1992,
+  "summary": "The M1A2 gave the Abrams a commander's independent thermal viewer, a digital battle management system and improved armour. It entered US Army service in 1992.",
+  "photoCredit": {
+    "author": "Staff Sgt. Aaron Allmon, U.S. Department of Defense",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:U.S._Army_M1A2_Abrams_at_Tal_Afar.jpg"
+  }
+}

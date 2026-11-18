@@ -1,0 +1,10 @@
+{
+  "name": "Leopard 2A5",
+  "country": "Germany",
+  "countryCode": "DE",
+  "order": 3,
+  "introduced": 1995,
+  "summary": "The Leopard 2A5 added the wedge-shaped armour on the turret front and improved fire control. It entered German service in 1995.",
+  "flag": "flags/germanyround",
+  "cardImage": "cards/leopard"
+}

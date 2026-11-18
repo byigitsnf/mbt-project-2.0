@@ -1,0 +1,16 @@
+{
+  "name": "T-90M",
+  "country": "Russia",
+  "countryCode": "RU",
+  "flag": "flags/russiaround1",
+  "cardImage": "cards/t-90m",
+  "order": 21,
+  "introduced": 2020,
+  "summary": "The latest T-90, nicknamed Proryv, with a new turret, Relikt reactive armour, the Kalina fire-control system and a 1,130 hp engine.",
+  "photoCredit": {
+    "author": "Ministry of Defence of the Russian Federation",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:T-90M.jpg"
+  }
+}

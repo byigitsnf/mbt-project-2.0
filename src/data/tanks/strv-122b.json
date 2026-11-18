@@ -1,0 +1,10 @@
+{
+  "name": "Strv 122B",
+  "country": "Sweden",
+  "countryCode": "SE",
+  "flag": "flags/swedenround",
+  "cardImage": "cards/strv-122b",
+  "order": 23,
+  "introduced": 2002,
+  "summary": "A small batch of Swedish Strv 122 tanks rebuilt with improved protection against mines and roadside bombs for international missions."
+}

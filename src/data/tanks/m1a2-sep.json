@@ -1,0 +1,15 @@
+{
+  "name": "M1A2 SEP",
+  "country": "USA",
+  "countryCode": "US",
+  "order": 1,
+  "introduced": 2001,
+  "summary": "The System Enhancement Package version of the M1A2 Abrams, with second-generation thermal sights, colour displays and improved armour.",
+  "flag": "flags/usaround",
+  "cardImage": "cards/m1a2-sep",
+  "photoCredit": {
+    "author": "Staff Sgt. Christopher McCullough, U.S. National Guard",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:M1A2_Abrams,_August_14,_2014.JPG"
+  }
+}
