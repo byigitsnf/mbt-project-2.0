@@ -33,7 +33,7 @@ for (const file of walk(SRC)) {
   const width = portrait ? meta.height : meta.width;
   const height = portrait ? meta.width : meta.height;
 
-  const wanted = key.startsWith('flags/') ? FLAG_WIDTHS : WIDTHS;
+  const wanted = key.split('/').includes('flags') ? FLAG_WIDTHS : WIDTHS;
   let widths = wanted.filter((w) => w < width);
   if (widths.length < wanted.length) widths.push(Math.min(width, wanted[wanted.length - 1]));
   widths = [...new Set(widths)];

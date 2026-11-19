@@ -4,7 +4,7 @@
   "countryCode": "IR",
   "order": 15,
   "introduced": 2017,
-  "summary": "The Karrar (Persian كرار Striker or \"Attacker\") is an Iranian MBT that was announced in 2016.",
-  "flag": "flags/iranround",
-  "cardImage": "cards/karrar"
+  "summary": "Iran's tank, unveiled in 2017 and closely resembling the Russian T-90MS, with a 125 mm gun, explosive reactive armour and a laser-guided anti-tank missile fired through the barrel.",
+  "flag": "modernmbt/flags/iranround",
+  "cardImage": "modernmbt/cards/karrar"
 }

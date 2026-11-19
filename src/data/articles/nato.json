@@ -20,13 +20,13 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/m60a3",
+      "image": "modernmbt/articles/nato/m60a3",
       "alt": "American M60A3",
       "caption": "American M60A3"
     },
     {
       "type": "figure",
-      "image": "articles/nato/leopard1a5",
+      "image": "modernmbt/articles/nato/leopard1a5",
       "alt": "German Leopard 1A5",
       "caption": "German Leopard 1A5"
     },
@@ -40,7 +40,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/mbt70",
+      "image": "modernmbt/articles/nato/mbt70",
       "alt": "MBT-70 (KPz-70 for Germany)",
       "caption": "MBT-70 (KPz-70 for Germany)"
     },
@@ -50,7 +50,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/xm803",
+      "image": "modernmbt/articles/nato/xm803",
       "alt": "XM803",
       "caption": "XM803"
     },
@@ -74,13 +74,13 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/xm1gm",
+      "image": "modernmbt/articles/nato/xm1gm",
       "alt": "XM1 Prototype made by General Motors",
       "caption": "XM1 Prototype made by General Motors"
     },
     {
       "type": "figure",
-      "image": "articles/nato/xm1chrysler",
+      "image": "modernmbt/articles/nato/xm1chrysler",
       "alt": "XM1 Prototype made by Chrysler Defence",
       "caption": "XM1 Prototype made by Chrysler Defence"
     },
@@ -104,7 +104,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/1979xm1abrams",
+      "image": "modernmbt/articles/nato/1979xm1abrams",
       "alt": "An early production XM-1 tank during field trials in 1979.",
       "caption": "An early production XM-1 tank during field trials in 1979."
     },
@@ -126,7 +126,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/leopard1",
+      "image": "modernmbt/articles/nato/leopard1",
       "alt": "Leopard 1",
       "caption": "Leopard 1"
     },
@@ -154,7 +154,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/leopard2pt15",
+      "image": "modernmbt/articles/nato/leopard2pt15",
       "alt": "Leopard 2PT15 equipped with 105mm smoothbore gun",
       "caption": "Leopard 2PT15 equipped with 105mm smoothbore gun"
     },
@@ -174,7 +174,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/leopard2prototype",
+      "image": "modernmbt/articles/nato/leopard2prototype",
       "alt": "Leopard 2 Prototype",
       "caption": "Leopard 2 Prototype"
     },
@@ -210,7 +210,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/challenger1",
+      "image": "modernmbt/articles/nato/challenger1",
       "alt": "Challenger 1",
       "caption": "Challenger 1"
     },
@@ -220,7 +220,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/chieftain",
+      "image": "modernmbt/articles/nato/chieftain",
       "alt": "Chieftain MBT",
       "caption": "Chieftain MBT"
     },
@@ -258,7 +258,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/nato/amx30",
+      "image": "modernmbt/articles/nato/amx30",
       "alt": "AMX-30",
       "caption": "AMX-30"
     },

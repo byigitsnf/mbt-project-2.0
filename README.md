@@ -23,7 +23,7 @@ npm run preview   # derlenmiş siteyi http://localhost:4173 adresinde açar
 
 ```
 index.html                 # Uygulamanın giriş sayfası
-source-images/             # Orijinal fotoğraflar (images betiğinin girdisi)
+source-images/modernmbt/   # Modern MBT fotoğrafları (images betiğinin girdisi)
 public/previews/           # About sayfasındaki animasyon (WebP)
 scripts/build-images.mjs   # Duyarlı (responsive) görselleri üreten betik
 src/
@@ -40,12 +40,12 @@ src/
 
 ### Yeni tank eklemek
 
-1. Fotoğrafları `source-images/<tank-adı>/` klasörüne koyun.
+1. Fotoğrafları `source-images/modernmbt/<tank-adı>/` klasörüne koyun.
 2. `src/data/tanks/<tank-adı>.json` dosyasını mevcut bir tanktan kopyalayıp düzenleyin.
-   Görselleri uzantısız yazın, örneğin `"heroImage": "altay/altay"`.
+   Görselleri uzantısız yazın, örneğin `"heroImage": "modernmbt/altay/altay"`.
 3. `introduced` alanına tankın hizmete girdiği yılı yazın. Ana sayfa tankları bu yıla göre gruplar:
-   2000 ve öncesi "Remnants of the Cold War", 2001–2010 "A New Millennium", 2011 ve sonrası "Modern Era".
-   Gruplar `src/lib/content.js` içindeki `periods` listesinde tanımlı.
+   2000 ve öncesi "Remnants of the Cold War", 2001–2019 "A New Millennium", 2020 ve sonrası "Modern Warfare".
+   Gruplar ve altlarındaki açıklama cümleleri `src/lib/content.js` içindeki `periods` listesinde tanımlı.
 4. `blocks` alanı boşsa tank yalnızca kart olarak görünür ("Full profile coming soon").
 
 ## Yayınlama

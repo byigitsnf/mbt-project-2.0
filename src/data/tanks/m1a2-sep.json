@@ -5,8 +5,8 @@
   "order": 1,
   "introduced": 2001,
   "summary": "The System Enhancement Package version of the M1A2 Abrams, with second-generation thermal sights, colour displays and improved armour.",
-  "flag": "flags/usaround",
-  "cardImage": "cards/m1a2-sep",
+  "flag": "modernmbt/flags/usaround",
+  "cardImage": "modernmbt/cards/m1a2-sep",
   "photoCredit": {
     "author": "Staff Sgt. Christopher McCullough, U.S. National Guard",
     "license": "Public domain",

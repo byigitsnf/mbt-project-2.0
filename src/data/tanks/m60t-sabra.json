@@ -4,7 +4,7 @@
   "countryCode": "TR",
   "order": 11,
   "introduced": 2007,
-  "summary": "The Sabra is an extensively upgraded M60 tank developed by Israel.The Sabra is known as the M60T in Turkish service.",
-  "flag": "flags/turkeyround",
-  "cardImage": "cards/m60sabra"
+  "summary": "Turkey's M60A1 tanks rebuilt by Israel Military Industries with a 120 mm smoothbore gun, explosive reactive armour, a modern fire-control system and a 1,000 hp engine. Known as the Sabra in Israel and the M60T in Turkish service.",
+  "flag": "modernmbt/flags/turkeyround",
+  "cardImage": "modernmbt/cards/m60sabra"
 }

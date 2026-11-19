@@ -2,7 +2,7 @@ import images from '../data/images.json';
 
 /**
  * Responsive image backed by the files that `npm run images` generates.
- * `src` is a key such as "m1-abrams/m1ip" (see src/data/images.json).
+ * `src` is a key such as "modernmbt/m1-abrams/m1ip" (see src/data/images.json).
  * Width/height are always set so the layout does not jump while loading.
  */
 export default function Img({ src, alt, sizes = '100vw', loading = 'lazy', fetchPriority, className }) {

@@ -1,0 +1,10 @@
+{
+  "name": "M1A2 SEP v3",
+  "country": "USA",
+  "countryCode": "US",
+  "flag": "modernmbt/flags/usaround",
+  "cardImage": "modernmbt/cards/m1a2-sep-v3",
+  "order": 29,
+  "introduced": 2020,
+  "summary": "An Abrams upgrade with more electrical power, an ammunition data link for programmable rounds, improved armour and counter-IED equipment. It reached US Army units in 2020."
+}

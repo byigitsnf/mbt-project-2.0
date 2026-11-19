@@ -5,6 +5,6 @@
   "order": 18,
   "introduced": 1997,
   "summary": "Sweden's version of the Leopard 2A5, with extra armour on the hull and turret roof and a Swedish command and control system.",
-  "flag": "flags/swedenround",
-  "cardImage": "cards/strv122"
+  "flag": "modernmbt/flags/swedenround",
+  "cardImage": "modernmbt/cards/strv122"
 }

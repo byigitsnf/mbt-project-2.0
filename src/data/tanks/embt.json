@@ -1,0 +1,11 @@
+{
+  "name": "EMBT",
+  "country": "France / Germany",
+  "countries": ["France", "Germany"],
+  "countryCode": "FR-DE",
+  "flag": "modernmbt/flags/francegermanyround",
+  "cardImage": "modernmbt/cards/embt",
+  "order": 31,
+  "introduced": 2022,
+  "summary": "KNDS's Enhanced Main Battle Tank demonstrator: a Leopard 2A7 hull with a lighter, Leclerc-derived turret and autoloader for a crew of three. Unveiled in 2022 as a bridge toward the future MGCS tank."
+}

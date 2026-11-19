@@ -5,6 +5,6 @@
   "order": 12,
   "introduced": 2004,
   "summary": "The fourth generation of Israel's front-engined Merkava, with modular armour, a 120 mm smoothbore gun and an internal 60 mm mortar.",
-  "flag": "flags/israelround",
-  "cardImage": "cards/merkava"
+  "flag": "modernmbt/flags/israelround",
+  "cardImage": "modernmbt/cards/merkava"
 }

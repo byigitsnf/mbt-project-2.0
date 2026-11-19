@@ -4,7 +4,7 @@
   "countryCode": "CN",
   "order": 9,
   "introduced": 2017,
-  "summary": "The VT-4 (Chinese: VT-4 zhǔzhàn tǎnkè) is a Chinese third generation mbt built by Norinco for overseas export.",
-  "flag": "flags/chinaround",
-  "cardImage": "cards/vt4"
+  "summary": "Norinco's export tank with a 125 mm gun and autoloader, a 1,300 hp diesel engine, an automatic transmission and modular reactive armour. Pakistan, Thailand and Nigeria have bought it.",
+  "flag": "modernmbt/flags/chinaround",
+  "cardImage": "modernmbt/cards/vt4"
 }

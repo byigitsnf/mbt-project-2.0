@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import Img from '../components/Img.jsx';
 import TankCard from '../components/TankCard.jsx';
-import { countries, periodOf, periods, profiles, tanks } from '../lib/content.js';
+import { countries, countriesOf, periodOf, periods, profiles, tanks } from '../lib/content.js';
 import { usePage } from '../lib/usePage.js';
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
 
   const visible = useMemo(() => {
     const term = q.trim().toLowerCase();
-    return tanks.filter((t) => (!term || t.name.toLowerCase().includes(term)) && (!country || t.country === country));
+    return tanks.filter((t) => (!term || t.name.toLowerCase().includes(term)) && (!country || countriesOf(t).includes(country)));
   }, [q, country]);
 
   // Split the visible tanks into periods, oldest first, each sorted by year; empty periods are hidden.
@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <>
       <section className="hero" aria-labelledby="page-title">
-        <Img src="articles/home-hero" alt="" sizes="100vw" loading="eager" fetchPriority="high" className="hero__bg" />
+        <Img src="modernmbt/articles/home-hero" alt="" sizes="100vw" loading="eager" fetchPriority="high" className="hero__bg" />
         <div className="container hero__inner">
           <p className="eyebrow">An illustrated guide</p>
           <h1 id="page-title" tabIndex={-1}>
@@ -133,6 +133,7 @@ export default function Home() {
                   {period.title}
                 </h3>
                 <p className="period__years">{period.years}</p>
+                {period.description && <p className="period__desc">{period.description}</p>}
                 <p className="period__count">
                   {items.length} {items.length === 1 ? 'tank' : 'tanks'}
                 </p>

@@ -1,0 +1,10 @@
+{
+  "name": "Leopard 2A8",
+  "country": "Germany",
+  "countryCode": "DE",
+  "flag": "modernmbt/flags/germanyround",
+  "cardImage": "modernmbt/cards/leopard-2a8",
+  "order": 27,
+  "introduced": 2025,
+  "summary": "The newest production Leopard 2, ordered by Germany and several other European armies from 2023. It adds the Trophy active protection system, stronger mine protection and digital crew stations."
+}

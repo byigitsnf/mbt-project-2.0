@@ -5,6 +5,6 @@
   "order": 6,
   "introduced": 2010,
   "summary": "A Russian modernisation of the Soviet T-72B with the Sosna-U thermal sight, an upgraded 125 mm gun and digital communications.",
-  "flag": "flags/russiaround1",
-  "cardImage": "cards/t72b3"
+  "flag": "modernmbt/flags/russiaround1",
+  "cardImage": "modernmbt/cards/t72b3"
 }

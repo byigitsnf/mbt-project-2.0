@@ -1,0 +1,10 @@
+{
+  "name": "T-84 Oplot-M",
+  "country": "Ukraine",
+  "countryCode": "UA",
+  "flag": "modernmbt/flags/ukraineround",
+  "cardImage": "modernmbt/cards/t84-oplot-m",
+  "order": 30,
+  "introduced": 2009,
+  "summary": "A Ukrainian development of the T-80UD with a 1,200 hp diesel engine, a 125 mm gun with an autoloader in a bustle-mounted magazine, and Nozh explosive reactive armour. Built in small numbers, mostly for Thailand."
+}

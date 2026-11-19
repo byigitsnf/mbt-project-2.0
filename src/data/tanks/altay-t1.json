@@ -5,6 +5,6 @@
   "order": 16,
   "introduced": 2025,
   "summary": "The first series-production version of Turkey's Altay, built by BMC with a 120 mm gun, a remote weapon station and an active protection system.",
-  "flag": "flags/turkeyround",
-  "cardImage": "cards/altay-t1"
+  "flag": "modernmbt/flags/turkeyround",
+  "cardImage": "modernmbt/cards/altay-t1"
 }

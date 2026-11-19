@@ -91,7 +91,7 @@ export default function Fundamentals() {
             </p>
           </div>
           <Img
-            src="articles/fundamentals"
+            src="modernmbt/articles/fundamentals"
             alt="A main battle tank on exercise"
             sizes="(min-width: 1000px) 480px, calc(100vw - 32px)"
             loading="eager"

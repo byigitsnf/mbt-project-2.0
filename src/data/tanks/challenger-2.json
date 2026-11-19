@@ -4,7 +4,7 @@
   "countryCode": "GB",
   "order": 5,
   "introduced": 1998,
-  "summary": "The FV4034 Challenger 2 (MoD designation \"CR2\") is a third generation British main battle tank.",
-  "flag": "flags/ukround2",
-  "cardImage": "cards/challenger2"
+  "summary": "Britain's tank, built by Vickers Defence Systems with Dorchester composite armour and a rifled 120 mm L30 gun that fires HESH rounds. It is being rebuilt as the Challenger 3 with a smoothbore gun.",
+  "flag": "modernmbt/flags/ukround2",
+  "cardImage": "modernmbt/cards/challenger2"
 }

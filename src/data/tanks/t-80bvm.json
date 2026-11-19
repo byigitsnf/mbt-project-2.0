@@ -5,6 +5,6 @@
   "order": 4,
   "introduced": 2018,
   "summary": "A Russian upgrade of the gas-turbine T-80BV with Relikt reactive armour, the Sosna-U thermal sight and an improved 125 mm gun.",
-  "flag": "flags/russiaround1",
-  "cardImage": "cards/t-80bvm"
+  "flag": "modernmbt/flags/russiaround1",
+  "cardImage": "modernmbt/cards/t-80bvm"
 }

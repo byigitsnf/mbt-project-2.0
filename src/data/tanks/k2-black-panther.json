@@ -4,7 +4,7 @@
   "countryCode": "KR",
   "order": 10,
   "introduced": 2014,
-  "summary": "K2 Black Panther (Korean: K-2 흑표) is a South Korean main battle tank, designed by the Agency for Defense Development.",
-  "flag": "flags/korearound",
-  "cardImage": "cards/k2"
+  "summary": "South Korea's tank, built by Hyundai Rotem, with a 120 mm L/55 gun and autoloader, a suspension that lets it kneel and tilt, and a radar-assisted fire-control system. Poland has ordered it in large numbers.",
+  "flag": "modernmbt/flags/korearound",
+  "cardImage": "modernmbt/cards/k2"
 }

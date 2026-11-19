@@ -1,0 +1,10 @@
+{
+  "name": "Strv 123",
+  "country": "Sweden",
+  "countryCode": "SE",
+  "flag": "modernmbt/flags/swedenround",
+  "cardImage": "modernmbt/cards/strv123",
+  "order": 28,
+  "introduced": 2026,
+  "summary": "Sweden's version of the Leopard 2A8, ordered in 2024 alongside a German purchase. It joins the upgraded Strv 122 fleet as the Swedish Army's newest tank."
+}

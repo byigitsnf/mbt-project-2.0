@@ -4,7 +4,7 @@
   "countryCode": "RU",
   "order": 17,
   "introduced": 2015,
-  "summary": "The T-14 Armata (Russian: Т-14 Армата) is a Russian MBT based on the Armata Universal Combat Platform.",
-  "flag": "flags/russiaround1",
-  "cardImage": "cards/armata"
+  "summary": "A clean-sheet Russian design with an unmanned turret, the three-man crew in an armoured capsule in the hull, the Afghanit active protection system and a 125 mm 2A82 gun. It was first shown in 2015 and has been built only in small numbers.",
+  "flag": "modernmbt/flags/russiaround1",
+  "cardImage": "modernmbt/cards/armata"
 }

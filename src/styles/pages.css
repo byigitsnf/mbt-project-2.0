@@ -164,9 +164,16 @@
   color: var(--accent);
   font-variant-numeric: tabular-nums;
 }
+.period__desc {
+  grid-column: 1;
+  max-width: 62ch;
+  margin-top: 10px;
+  color: var(--muted);
+  line-height: 1.55;
+}
 .period__count {
   grid-column: 2;
-  grid-row: 1 / span 2;
+  grid-row: 1 / span 3;
   align-self: end;
   color: var(--muted);
   font-size: 0.92rem;

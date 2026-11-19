@@ -21,14 +21,38 @@ export const profiles = tanks.filter(hasProfile);
  * service, so they count as "Remnants of the Cold War" too.
  */
 export const periods = [
-  { id: 'cold-war-remnants', title: 'Remnants of the Cold War', years: '1991–2000', until: 2000 },
-  { id: 'new-millennium', title: 'A New Millennium', years: '2000–2010', until: 2010 },
-  { id: 'modern', title: 'Modern Era', years: '2010–today', until: Infinity },
+  {
+    id: 'cold-war-remnants',
+    title: 'Remnants of the Cold War',
+    years: '1991–2000',
+    until: 2000,
+    description:
+      'Designed for a clash between NATO and the Warsaw Pact that never came, these tanks reached service as the Cold War ended and still form the backbone of many armies.',
+  },
+  {
+    id: 'new-millennium',
+    title: 'A New Millennium',
+    years: '2000–2020',
+    until: 2019,
+    description:
+      'Two decades of peacekeeping and counter-insurgency taught tanks to survive mines, roadside bombs and city streets, while more nations began building designs of their own.',
+  },
+  {
+    id: 'modern-warfare',
+    title: 'Modern Warfare',
+    years: '2020–today',
+    until: Infinity,
+    description:
+      'Drones, loitering munitions and networked sensors have reshaped the battlefield; the newest tanks answer with active protection systems, digital crew stations and a new generation of guns.',
+  },
 ];
 
 export const periodOf = (tank) => periods.find((p) => tank.introduced <= p.until);
 
-export const countries =[...new Set(tanks.map((t) => t.country))].sort();
+/** The countries a tank belongs to: its `countries` list for joint designs, otherwise just `country`. */
+export const countriesOf = (tank) => tank.countries ?? [tank.country];
+
+export const countries = [...new Set(tanks.flatMap(countriesOf))].sort();
 
 export const getTank = (id) => profiles.find((t) => t.id === id);
 

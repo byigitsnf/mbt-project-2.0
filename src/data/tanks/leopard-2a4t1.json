@@ -2,8 +2,8 @@
   "name": "Leopard 2A4T1",
   "country": "Turkey",
   "countryCode": "TR",
-  "flag": "flags/turkeyround",
-  "cardImage": "cards/leopard-2a4t1",
+  "flag": "modernmbt/flags/turkeyround",
+  "cardImage": "modernmbt/cards/leopard-2a4t1",
   "order": 25,
   "introduced": 2020,
   "summary": "Turkish Leopard 2A4 tanks fitted with Roketsan's T1 reactive-passive armour package after combat losses in northern Syria."

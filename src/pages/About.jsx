@@ -52,7 +52,7 @@ export default function About() {
         <picture>
           <source srcSet={`${base}previews/about.webp`} type="image/webp" media="(prefers-reduced-motion: no-preference)" />
           <img
-            src={`${base}img/articles/about-still-480.webp`}
+            src={`${base}img/modernmbt/articles/about-still-480.webp`}
             alt="A tank firing its main gun"
             width="640"
             height="301"

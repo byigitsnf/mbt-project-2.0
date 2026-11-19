@@ -1,0 +1,10 @@
+{
+  "name": "Leopard 2A7",
+  "country": "Germany",
+  "countryCode": "DE",
+  "flag": "modernmbt/flags/germanyround",
+  "cardImage": "modernmbt/cards/leopard-2a7",
+  "order": 26,
+  "introduced": 2014,
+  "summary": "A Leopard 2A6 upgraded for both conventional and urban combat, with extra protection against mines and roadside bombs, a remote weapon station and the ability to fire programmable high-explosive rounds."
+}

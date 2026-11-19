@@ -18,13 +18,13 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/littlewillie",
+      "image": "modernmbt/articles/history/littlewillie",
       "alt": "Little Willie Tank",
       "caption": "The first working tank in the world, British Little Willie in 1915"
     },
     {
       "type": "figure",
-      "image": "articles/history/t14armata",
+      "image": "modernmbt/articles/history/t14armata",
       "alt": "T14 Armata",
       "caption": "The most modern tank in the world, Russian T14 Armata in 2015"
     },
@@ -50,7 +50,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/mark1",
+      "image": "modernmbt/articles/history/mark1",
       "alt": "Mark I Tank 1916",
       "caption": "British Mark I Tank in 1916"
     },
@@ -66,7 +66,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/hotchkissh35",
+      "image": "modernmbt/articles/history/hotchkissh35",
       "alt": "Hothckiss H35",
       "caption": "French Hotchkiss H35 Tank in 1935"
     },
@@ -80,7 +80,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/guderian",
+      "image": "modernmbt/articles/history/guderian",
       "alt": "Guderian",
       "caption": "General Heinz Guderian, founder of the Blitzkrieg"
     },
@@ -100,7 +100,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/tiger1",
+      "image": "modernmbt/articles/history/tiger1",
       "alt": "Tiger I Tank 1943",
       "caption": "German Tiger Tank in 1943"
     },
@@ -120,7 +120,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/m60a1",
+      "image": "modernmbt/articles/history/m60a1",
       "alt": "M60A1",
       "caption": "American M60A1 Patton Tank (1963)"
     },
@@ -134,7 +134,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/t72a",
+      "image": "modernmbt/articles/history/t72a",
       "alt": "T72A",
       "caption": "Soviet T-72A Tank (1973)"
     },
@@ -150,7 +150,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/leopard",
+      "image": "modernmbt/articles/history/leopard",
       "alt": "Leopard2A5",
       "caption": "German Leopard 2A5 Tanks in 2010"
     },
@@ -160,7 +160,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/c1ariete",
+      "image": "modernmbt/articles/history/c1ariete",
       "alt": "C1 Ariete",
       "caption": "Italian C1 Ariete Tanks in 2022"
     },
@@ -170,7 +170,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/t90aaps",
+      "image": "modernmbt/articles/history/t90aaps",
       "alt": "T-90A",
       "caption": "Russian T-90A Vladimir Tank with its \"Shtora-1\" APS Activated (2004)"
     },
@@ -186,7 +186,7 @@
     },
     {
       "type": "figure",
-      "image": "articles/history/abramsx",
+      "image": "modernmbt/articles/history/abramsx",
       "alt": "AbramsX",
       "caption": "American Next-Generation Abrams X Tank for 2030"
     }
